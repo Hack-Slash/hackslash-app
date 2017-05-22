@@ -6,93 +6,92 @@ class PagesController < ApplicationController
   end
 
   def cheers
-    @names = [
-      "janice",
-      "jamie",
-      "michael",
-      "josh",
-      "andrew",
-      "john",
-      "dov",
-      "marco",
-      "imani",
-      "eric"
+    @people = [
+      {
+        name: "janice", 
+        note: "INSERT NOTE TO BRIAN HERE"
+      },
+      {
+        name: "jamie", 
+        note: "INSERT NOTE TO BRIAN HERE"
+      },
+      {
+        name: "michael", 
+        note: "INSERT NOTE TO BRIAN HERE"
+      },
+      {
+        name: "josh", 
+        note: "INSERT NOTE TO BRIAN HERE"
+      },
+      {
+        name: "andrew", 
+        note: "INSERT NOTE TO BRIAN HERE"
+      },
+      {
+        name: "john", 
+        note: "INSERT NOTE TO BRIAN HERE"
+      },
+      {
+        name: "dov", 
+        note: "INSERT NOTE TO BRIAN HERE"
+      },
+      {
+        name: "marco", 
+        note: "INSERT NOTE TO BRIAN HERE"
+      },
+      {
+        name: "imani", 
+        note: "INSERT NOTE TO BRIAN HERE"
+      },
+      {
+        name: "eric", 
+        note: "INSERT NOTE TO BRIAN HERE"
+      }
     ]
-  end
-
-  def nice_janice
-  end
-
-  def nice_1
-  end
-
-  def nice_2
-  end
-
-  def nice_3
-  end
-
-  def nice_4
-  end
-
-  def nice_5
-  end
-
-  def nice_6
-  end
-
-  def nice_7
-  end
-
-  def nice_8
-  end
-
-  def nice_9
   end
 
   def yknow
-    @names = [
-      "janice",
-      "jamie",
-      "michael",
-      "josh",
-      "andrew",
-      "john",
-      "dov",
-      "marco",
-      "imani",
-      "eric"
+    @people = [
+      {
+        name: "janice", 
+        note: "INSERT NOTE TO KENNY HERE"
+      },
+      {
+        name: "jamie", 
+        note: "INSERT NOTE TO KENNY HERE"
+      },
+      {
+        name: "michael", 
+        note: "INSERT NOTE TO KENNY HERE"
+      },
+      {
+        name: "josh", 
+        note: "INSERT NOTE TO KENNY HERE"
+      },
+      {
+        name: "andrew", 
+        note: "INSERT NOTE TO KENNY HERE"
+      },
+      {
+        name: "john", 
+        note: "INSERT NOTE TO KENNY HERE"
+      },
+      {
+        name: "dov", 
+        note: "INSERT NOTE TO KENNY HERE"
+      },
+      {
+        name: "marco", 
+        note: "INSERT NOTE TO KENNY HERE"
+      },
+      {
+        name: "imani", 
+        note: "INSERT NOTE TO KENNY HERE"
+      },
+      {
+        name: "eric", 
+        note: "INSERT NOTE TO KENNY HERE"
+      }
     ]
   end
-  
-  def yknow_janice
-  end
-
-  def yknow_1
-  end
-
-  def yknow_2
-  end
-
-  def yknow_3
-  end
-
-  def yknow_4
-  end
-
-  def yknow_5
-  end
-
-  def yknow_6
-  end
-
-  def yknow_7
-  end
-
-  def yknow_8
-  end
-
-  def yknow_9
-  end
-
 end

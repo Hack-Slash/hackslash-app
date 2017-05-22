@@ -9,13 +9,14 @@
                             <div class="portfoloi_content_area" >
                                 <div class="portfolio_content">
                                     <div class="row"  id="portfolio">
-                                        <% @names.each do |name| %>
+                                        <% @people.each do |person| %>
                                             <div class="col-xs-12 col-sm-3">
                                                 <div class="portfolio_single_content">
                                                     <img src="/images/117840_yknow.jpg" alt="title"/>
                                                     <div>
-                                                        <a href="/nice/<%= name %>"><%= name %></a>
-                                                        <!-- <span>xyz</span> -->
+                                                        <!-- NAME WILL BE REMOVED -->
+                                                        <a><%= person[:name] %></a>
+                                                        <span class="test"><%= person[:note] %></span>
                                                     </div>
                                                 </div>
                                             </div>
