@@ -1,0 +1,40 @@
+<body data-spy="scroll" data-target="#main-navbar">
+    <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+    <div class="body">       
+        
+        <!-- Begin text carousel intro section -->
+        <section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(https://webby-gallery-production.s3.amazonaws.com/uploads/asset/image/10885/3016000000107020_large.jpg);">
+            <div class="container">
+                <div class="caption text-center text-white" data-stellar-ratio="0.7">
+
+                    <div id="owl-intro-text" class="owl-carousel">
+                        <div class="item">
+                            <br>
+                            <br>
+                            <br>
+                            <p>
+                            <a href="javascript:void(0)" id="playsound">W e l c </a>
+                            <a href="/are_you_sure_you_want_to_click_this">o</a>
+                            <a href="javascript:void(0)" id="playsound">m e</a>
+                            </p>
+                            <audio id="sound_effect" class="audio_player" preload="auto">
+                                <source src="audios/welcome.mp3" type="audio/mp3">
+                            </audio>
+                        </div>
+                    </div>
+                </div> <!-- /.caption -->
+            </div> <!-- /.container -->
+        </section>
+        <!-- End text carousel intro section -->
+                                        
+    </div><!-- body ends -->
+
+</body> 
+
+<script type="text/javascript">
+    $('#playsound').click(function (e) {
+        $('#sound_effect')[0].currentTime = 0;
+        $('#sound_effect')[0].play();
+        return false;
+    });
+</script>

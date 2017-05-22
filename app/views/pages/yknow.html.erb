@@ -1,0 +1,32 @@
+<body data-spy="scroll" data-target="#main-navbar">
+    <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+    <div class="body">  
+        <section id="portfolio-section" class="page bg-style1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="portfolio">
+                            <div class="portfoloi_content_area" >
+                                <div class="portfolio_content">
+                                    <div class="row"  id="portfolio">
+                                        <% @names.each do |name| %>
+                                            <div class="col-xs-12 col-sm-3">
+                                                <div class="portfolio_single_content">
+                                                    <img src="/images/117840_yknow.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="/nice/<%= name %>"><%= name %></a>
+                                                        <!-- <span>xyz</span> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <% end %>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>

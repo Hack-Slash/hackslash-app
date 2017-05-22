@@ -1,0 +1,59 @@
+<body data-spy="scroll" data-target="#main-navbar">
+  <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+  <div class="body">       
+      
+    <section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/slider-bg.jpg);">
+        <div class="container">
+            <div class="caption text-center text-white" data-stellar-ratio="0.7">
+                <div id="owl-intro-text" class="owl-carousel">
+                    <div class="item">
+                        <h1>AYYYYYYYYYYYYYYYYEEEEEEEE</h1>
+                    </div>
+                    <div class="item">
+                        <h1>You did it</h1>
+                    </div>
+                    <div class="item">
+                        <h1>NICE</h1>
+                    </div>
+                    <div class="item">
+                        <h1><img src="https://media.giphy.com/media/26gsaLkUSO6uNiXsc/giphy.gif"></h1>
+                    </div>
+                    <div class="item">
+                        <h1>From your favorite cohort - </h1>
+                    </div>
+                    <div class="item">
+                        <h1>Thank you for the experience</h1>
+                    </div>
+                    <div class="item">
+                        <h1>The <a href="javascript:void(0)" id="playsound">laughs</a></h1>
+                        <audio id="sound_effect" class="audio_player" preload="auto">
+                            <source src="audios/laugh.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div class="item">
+                        <h1>The tears</h1>
+                    </div>
+                    <div class="item">
+                        <h1><a href="https://threejs.org/examples/webgl_animation_cloth.html">This</a></h1>
+                    </div>
+                    <div class="item">
+                        <h1>and <a href="https://youtu.be/dQw4w9WgXcQ">this</a>.</h1>
+                    </div>
+                    <div class="item">
+                        <h1><a href="/cheers">Cheers</a></h1>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+  </div>
+
+</body> 
+
+<script type="text/javascript">
+    $('#playsound').click(function (e) {
+        $('#sound_effect')[0].currentTime = 0;
+        $('#sound_effect')[0].play();
+        return false;
+    });
+</script>
