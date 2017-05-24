@@ -25,7 +25,7 @@ class PagesController < ApplicationController
       },
       {
         name: "andrew", 
-        note: "INSERT NOTE TO BRIAN HERE"
+        note: "Mookie Wilson once said, “If I believe in dinosaurs, then somewhere, they must be believing in me. And if they believe in me, then I can believe in me.” Thank you for believing in me and teaching us the many ways of the computer. I don’t know what I’m going to do with myself from 6-930 now, well 6-930 on Tuesdays and Wednesdays at least, but wherever life takes me be sure to know that I will be Slacking you consistently with many questions, comments, and thoughts."
       },
       {
         name: "jon", 
@@ -70,7 +70,7 @@ class PagesController < ApplicationController
       },
       {
         name: "andrew", 
-        note: "INSERT NOTE TO KENNY HERE"
+        note: "Thank you for all your help throughout the past couple of months!"
       },
       {
         name: "jon", 
@@ -90,7 +90,7 @@ class PagesController < ApplicationController
       },
       {
         name: "eric", 
-        note: "INSERT NOTE TO KENNY HERE"
+        note: "It was a huge help having you there to help me fix the code and talk through errors I ran into. Your  support was an incredibly valuable addition to the course."
       }
     ]
   end
