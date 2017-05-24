@@ -13,7 +13,7 @@ class PagesController < ApplicationController
       },
       {
         name: "jamie", 
-        note: "INSERT NOTE TO BRIAN HERE"
+        note: "Brian, thank you for your combination of frankness and acceptance. You are capable of telling hard truths and pushing us to our academic edge. You are also capable of managing a lot of different personalities and needs. I feel like this class was tailored to each of our learning abilities, strengths, and weaknesses and I appreciate your ability to adapt as the class progressed. You are a grade A++ teacher and I feel like I can say that as a teacher. Thanks for getting me to this level. It is more than appreciated…I just don’t know what that word is….<strong>APPRECIATED</strong>. There we go."
       },
       {
         name: "michael", 
