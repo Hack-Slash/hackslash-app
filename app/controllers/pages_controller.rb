@@ -58,7 +58,7 @@ class PagesController < ApplicationController
       },
       {
         name: "jamie", 
-        note: "INSERT NOTE TO KENNY HERE"
+        note: "Kenny, thank you for all of the individual care you were willing to spend with each and every one of us. You have personally helped me through some strange, strange bugs. I also very much appreciate your honesty about the industry and encouraging us to really level up our skills. You have been a positive force for self-improvement and I feel like I can come to you with any problem. Thanks for all your patience and willingness to dive into our crazy problems! "
       },
       {
         name: "michael", 
