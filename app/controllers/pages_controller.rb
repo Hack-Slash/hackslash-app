@@ -45,7 +45,7 @@ class PagesController < ApplicationController
       },
       {
         name: "eric", 
-        note: "INSERT NOTE TO BRIAN HERE"
+        note: "Brian, as someone who works in education it means a lot to me that I was lucky enough to come here and have such a great teacher. I truly understand the difference that can make in a class, and it was my biggest concern when I originally signed up for this class. I appreciate all the help you've been throughout!"
       }
     ]
   end
