@@ -28,8 +28,8 @@ class PagesController < ApplicationController
         note: "INSERT NOTE TO BRIAN HERE"
       },
       {
-        name: "john", 
-        note: "INSERT NOTE TO BRIAN HERE"
+        name: "jon", 
+        note: "Brian, thanks so much for your teaching expertise. I decided on attending Actualize specifically because you are both an educator and a coder. I have learned quite a lot over the past few months, and will continue review your helpful videos (at 1.5x speed) after we are done!"
       },
       {
         name: "dov", 
@@ -73,8 +73,8 @@ class PagesController < ApplicationController
         note: "INSERT NOTE TO KENNY HERE"
       },
       {
-        name: "john", 
-        note: "INSERT NOTE TO KENNY HERE"
+        name: "jon", 
+        note: "Kenny, I really appreciate all of the help and advice you've given me over the past few months. You have quite the arsenal of problem-solving code skills!"
       },
       {
         name: "dov", 
