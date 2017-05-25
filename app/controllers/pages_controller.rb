@@ -21,7 +21,7 @@ class PagesController < ApplicationController
       },
       {
         name: "josh", 
-        note: "INSERT NOTE TO BRIAN HERE"
+        note: "Hey Brian, thanks for sharing your wisdom with us and almost as importantly, keeping us on track with the appropriate amount of snark.  I hope our paths cross again someday. Until then, see you on Slack!"
       },
       {
         name: "andrew", 
@@ -66,7 +66,7 @@ class PagesController < ApplicationController
       },
       {
         name: "josh", 
-        note: "INSERT NOTE TO KENNY HERE"
+        note: "Hey Kenny, thanks for being there to help us along the way and being a great example of someone who’s been through the course and has the curiosity and passion for problem solving to succeed."
       },
       {
         name: "andrew", 
