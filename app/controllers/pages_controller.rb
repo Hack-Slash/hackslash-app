@@ -41,7 +41,7 @@ class PagesController < ApplicationController
       },
       {
         name: "imani", 
-        note: "INSERT NOTE TO BRIAN HERE"
+        note: "Thank you so much for being such a great instructor! :heart: muah!"
       },
       {
         name: "eric", 
@@ -86,7 +86,7 @@ class PagesController < ApplicationController
       },
       {
         name: "imani", 
-        note: "INSERT NOTE TO KENNY HERE"
+        note: "Thank you so much for being such a great instructor! :heart: muah!"
       },
       {
         name: "eric", 
