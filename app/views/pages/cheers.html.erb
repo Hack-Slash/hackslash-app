@@ -10,13 +10,16 @@
                                 <div class="portfolio_content">
                                     <div class="row"  id="portfolio">
                                         <% @people.each do |person| %>
-                                            <div class="col-sm-4">
+                                            <div class="col-sm-4 ">
                                                 <div class="portfolio_single_content">
                                                     <img src="/images/117840_big.jpg" alt="title"/>
                                                     <div>
                                                         <!-- NAME WILL BE REMOVED -->
                                                         <a><%= person[:name] %></a>
                                                         <span class="test"><%= person[:note] %></span>
+                                                        <br>
+                                                        <br>
+                                                        <br>
                                                     </div>
                                                 </div>
                                             </div>
