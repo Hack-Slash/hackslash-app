@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   def cheers
     @people = [
       {
-        name: "janice", 
+        name: "alice", 
         note: "INSERT NOTE TO BRIAN HERE"
       },
       {
@@ -33,11 +33,11 @@ class PagesController < ApplicationController
       },
       {
         name: "dov", 
-        note: "INSERT NOTE TO BRIAN HERE"
+        note: "Hey Brian, Thanks for your dedication throughout the course. You pushed us to achieve way beyond our expectations. I truly appreciate your help in all aspects. Having you as our teacher really made the experience so much more amazing!"
       },
       {
         name: "marco", 
-        note: "INSERT NOTE TO BRIAN HERE"
+        note: "Hey Brain! Thank you for everything in these past three months. Everything from debugging our silly mistakes to teaching us to be happy when we get a error. Theres no doubt that the lessons we learned in class will carry on with us to our next career. Thanks again and hope to talk soon!"
       },
       {
         name: "imani", 
@@ -78,11 +78,11 @@ class PagesController < ApplicationController
       },
       {
         name: "dov", 
-        note: "INSERT NOTE TO KENNY HERE"
+        note: "Kenny, you were always ready to assist me with untangling coding issues. Your kindheartedness made it a pleasure having you around!"
       },
       {
         name: "marco", 
-        note: "INSERT NOTE TO KENNY HERE"
+        note: "Hey Kenny! Thanks for all the help and debugging! We really appreciate all the time you spent explaining and working out problems together. Keep in touch!"
       },
       {
         name: "imani", 
