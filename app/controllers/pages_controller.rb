@@ -17,7 +17,7 @@ class PagesController < ApplicationController
       },
       {
         name: "michael", 
-        note: "INSERT NOTE TO BRIAN HERE"
+        note: "It was rice to meet you. I appreciate the time and effort you put into the last few months. I know it couldn't have been easy at points."
       },
       {
         name: "josh", 
@@ -64,7 +64,7 @@ class PagesController < ApplicationController
       },
       {
         name: "michael", 
-        note: "INSERT NOTE TO KENNY HERE"
+        note: "Kenny, I greatly appreciated your extra perspective and personality these past three months. You helped me figure out some of my most stubborn algos."
       },
       {
         name: "josh", 
