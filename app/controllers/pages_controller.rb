@@ -9,7 +9,7 @@ class PagesController < ApplicationController
     @people = [
       {
         name: "alice", 
-        note: "INSERT NOTE TO BRIAN HERE"
+        note: "Brian, it’s been an honor to be taught by you, but don’t let that get to your head. You’re only in my list of top 3 … or 5 teachers. You are the funniest though. Actually, you’re the funniest ----ing person I know – you can let that get to your head. Your humor has been a huge relief for me in these past couple months, which as you may know have been really difficult. I’ve looked forward to your class every day, and am sad knowing it’s over. I truly appreciate your sincere investment in each of your students. Your observations, thought, and care do not go unnoticed and I hope you know much of an impact you’ve made on every one of us. I was in a real professional funk before this program, but am so glad I know I’m on the right track. That clarity has been something I’ve been searching for for a really long time, so thank you. Thank you for everything."
       },
       {
         name: "jamie", 
@@ -48,13 +48,15 @@ class PagesController < ApplicationController
         note: "Brian, as someone who works in education it means a lot to me that I was lucky enough to come here and have such a great teacher. I truly understand the difference that can make in a class, and it was my biggest concern when I originally signed up for this class. I appreciate all the help you've been throughout!"
       }
     ]
+
+    @people.shuffle!
   end
 
   def yknow
     @people = [
       {
         name: "janice", 
-        note: "INSERT NOTE TO KENNY HERE"
+        note: "Kenny, thank you so much for your help. You have been a wonderful TA – always ready and willing to listen, help, and provide academic and professional guidance. You’ve been a huge support and I have nothing but appreciation for you. Best of luck with the job search and I hope to work with you on some projects in the future!"
       },
       {
         name: "jamie", 
@@ -93,5 +95,6 @@ class PagesController < ApplicationController
         note: "It was a huge help having you there to help me fix the code and talk through errors I ran into. Your  support was an incredibly valuable addition to the course."
       }
     ]
+    @people.shuffle!
   end
 end
